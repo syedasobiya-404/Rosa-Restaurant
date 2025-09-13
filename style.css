@@ -1,0 +1,14 @@
+.hero-bg {
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/06/06/34/baking-2589512_1280.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.gold {
+  color: #caa15a;
+}
+.vignette::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.65));
+}
